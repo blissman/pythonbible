@@ -12,5 +12,8 @@ city = input("In what city do you live?: ")
 love = input("What's an activity you enjoy?: ")
 
 # Create output text
+string = "Your name is {}, you are {}-years old, living in {} and you love {}."
+output = string.format(name, age, city, love)
 
 # Print output to screen
+print(output)
